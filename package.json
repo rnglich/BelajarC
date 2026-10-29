@@ -1,0 +1,14 @@
+{
+  "name": "logicforge",
+  "version": "1.0.0-beta",
+  "private": true,
+  "description": "LogicForge - Gamified C/C++ logic learning workspace",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./tailwind.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./tailwind.css --watch",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
